@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const corsOptions = {
-  origin: "https://stock-exchange-data.vercel.app",
+  origin: "*",
   optionsSuccessStatus: 200,
 };
 
