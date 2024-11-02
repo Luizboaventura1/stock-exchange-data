@@ -2,7 +2,7 @@ let listUL = document.getElementById("list");
 
 async function getData() {
   try {
-    const response = await fetch("http://localhost:3000/api/v1", {
+    const response = await fetch("https://stock-exchange-data-v1.vercel.app/api/v1", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
